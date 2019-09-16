@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Inventory.Entities
 {
     {
-    public class RawMaterialsOrderDetails
+    public class RawMaterialsOrderDetails //model class of RawMaterialsOrder
     {
         private string _rawMaterialsOrderID;
         private string _rawMaterialsID;
