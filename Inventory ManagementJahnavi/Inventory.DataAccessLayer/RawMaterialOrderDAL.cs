@@ -12,9 +12,9 @@ namespace Inventory.DataAccessLayer
   
     public class RawMaterialOrderDAL
     {
-        public static List<RawMaterialOrder> rawmaterialorderList = new List<RawMaterialOrder>();
+        public static List<RawMaterialOrder> rawmaterialorderList = new List<RawMaterialOrder>(); //list the rawmaterial order
 
-        public bool AddRMOrderDAL(RawMaterialOrder order , List<RawMaterialOrder> orderDetails)
+        public bool AddRMOrderDAL(RawMaterialOrder order , List<RawMaterialOrder> orderDetails) //method to add raw material order
         {
             bool RMorderAdded = false;
             try
@@ -29,7 +29,7 @@ namespace Inventory.DataAccessLayer
             return RMorderAdded;
 
         }
-        public bool DeleteRMOrderDAL(string RMOrderID)
+        public bool DeleteRMOrderDAL(string RMOrderID)//method to delete order
         {
             bool RMOrderDeleted = false;
             try
@@ -56,7 +56,7 @@ namespace Inventory.DataAccessLayer
             return RMOrderDeleted;
 
         }
-        public bool UpdateRMOrderDAL(RawMaterialOrder updateorder)
+        public bool UpdateRMOrderDAL(RawMaterialOrder updateorder)//method to update rawmaterial order
         {
             bool orderUpdated = false;
             try
@@ -78,11 +78,11 @@ namespace Inventory.DataAccessLayer
             return orderUpdated;
 
         }
-        public List<RawMaterialOrder> GetAllRMOrdersDAL()
+        public List<RawMaterialOrder> GetAllRMOrdersDAL() // list of all raw material order
         {
             return rawmaterialorderList;
         }
-        public List<RawMaterialOrder> GetRMOrdersByDateDAL(string date)
+        public List<RawMaterialOrder> GetRMOrdersByDateDAL(string date) //search raw materials order by date
         {
             List<RawMaterialOrder> searchRawMaterialOrder = new List<RawMaterialOrder>();
             try
@@ -101,7 +101,7 @@ namespace Inventory.DataAccessLayer
             }
             return searchRawMaterialOrder;
         }
-        public RawMaterialOrder GetRMOrdersByOrderIDDAL(string OrderID)
+        public RawMaterialOrder GetRMOrdersByOrderIDDAL(string OrderID)// search raw materials order by ID
         {
             List<RawMaterialOrder> searchRawMaterialOrder = new List<RawMaterialOrder>();
             RawMaterialOrder order = null;
