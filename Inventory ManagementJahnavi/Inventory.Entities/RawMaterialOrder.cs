@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-    namespace InventoryManagement.Entities
+    namespace InventoryManagement.Entities //model class of RawMaterialOrder
     {
         public class RawMaterialOrder
 
