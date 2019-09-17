@@ -1,0 +1,2 @@
+C:\project\inventory\inventory.presentationlayer\Inventory1.dataaccesslayer\obj\Debug\Inventory1.dataaccesslayer.csprojAssemblyReference.cache
+C:\project\inventory\inventory.presentationlayer\Inventory1.dataaccesslayer\obj\Debug\Inventory1.dataaccesslayer.csproj.CoreCompileInputs.cache

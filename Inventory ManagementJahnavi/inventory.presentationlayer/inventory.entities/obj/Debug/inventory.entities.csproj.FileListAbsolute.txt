@@ -1,0 +1,6 @@
+C:\project\inventory\inventory.presentationlayer\inventory.entities\bin\Debug\inventory.entities.dll
+C:\project\inventory\inventory.presentationlayer\inventory.entities\bin\Debug\inventory.entities.pdb
+C:\project\inventory\inventory.presentationlayer\inventory.entities\obj\Debug\inventory.entities.csprojAssemblyReference.cache
+C:\project\inventory\inventory.presentationlayer\inventory.entities\obj\Debug\inventory.entities.csproj.CoreCompileInputs.cache
+C:\project\inventory\inventory.presentationlayer\inventory.entities\obj\Debug\inventory.entities.dll
+C:\project\inventory\inventory.presentationlayer\inventory.entities\obj\Debug\inventory.entities.pdb

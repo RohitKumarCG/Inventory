@@ -1,0 +1,2 @@
+C:\project\inventory\inventory.presentationlayer\inventory.exceptions\obj\Debug\inventory.exceptions.csprojAssemblyReference.cache
+C:\project\inventory\inventory.presentationlayer\inventory.exceptions\obj\Debug\inventory.exceptions.csproj.CoreCompileInputs.cache
