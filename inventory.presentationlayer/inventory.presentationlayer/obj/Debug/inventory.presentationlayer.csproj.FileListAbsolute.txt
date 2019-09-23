@@ -1,0 +1,1 @@
+C:\project\inventory\inventory.presentationlayer\inventory.presentationlayer\obj\Debug\inventory.presentationlayer.csproj.CoreCompileInputs.cache
