@@ -1,0 +1,27 @@
+Create Database Inventory
+
+use Inventory
+go
+Create schema RMAOD
+go
+ Create Table RMAO.Rawmaterialorder
+ (
+ CreationDateTime          Datetime, 
+ LastmodifiedDateTime      datetime,
+ RawMaterialOrderID        varchar(30)     primary key,
+ RawMaterialOrderDate      datetime             not null ,
+ SupplierID                varchar(30)     not null ,
+ RawMaterialTotalPrice     decimal            constraint k_RM_price check (RawMaterialTotalPrice > 0),
+ RawMaterialTotalQuantity  decimal            constraint k_RM_quantity check (RawMaterialTotalQuantity > 0),
+	    
+ )
+ create table RMAOD.Rawmaterialorderdetails
+ (
+ RawMaterialOrderDetailID varchar(30),
+ RawMaterialOrderID    varchar(30), 
+ foreign key (RawMaterialOrderID) references RMAO.rawmaterialorder(RawMaterialOrderID), 
+ RawMaterialID          varchar(30),
+ RawMaterialUnitPrice    decimal,
+ RawMaterialQuantity     decimal,
+ RawMaterialTotalPrice   decimal
+ ) 
