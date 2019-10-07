@@ -1,0 +1,24 @@
+create table Prod.Distributor
+(DistributorID varchar(20) constraint Distributor_pk primary key,
+DistributorName varchar(40) Not Null unique,
+DistributorMobile char(10)  Not Null unique,
+DistributorEmail varchar(30) not null unique,
+DistributorPassword varchar(15) not null unique,
+CreateDateTime dateTime Not Null,
+LastModifiedDateTime DateTime not Null,
+)
+go
+select* from Prod.DistributorAddress
+Go
+drop table prod.DistributorAddress
+go
+create table Prod.DistributorAddress
+(DistributoraddressID varchar(20) constraint Distributoraddress_pk primary key,
+DistributorID varchar(20) references Prod.Distributor(DistributorID) ,
+AddressLine1 varchar(30) not null unique,
+AddressLine2 varchar (30),
+Pincode char(6),
+City varchar(10),
+DistributorState varchar(10),
+)
+go
